@@ -7,9 +7,9 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 
-const Main = () =>(
+const Main = () =>{
 
-	
+	return(
 				<Switch>
 					<Route path="/" exact component={ Landingpage } /> 
 					<Route path="/about"  component={ Aboutpage } /> 
@@ -18,7 +18,7 @@ const Main = () =>(
 					<Route path="/contact"  component={ Contact } /> 
 				</Switch>
 
-	
-)
+	)
+}
 
 export default Main;
