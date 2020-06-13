@@ -29,7 +29,7 @@ return(
 			<h5>Email</h5>
 			<p>tyagiankit370@gmail.com</p>
 			<h5>linkedin</h5>
-			<p>https://www.linkedin.com/in/ankit-tyagi-4a1535168/</p>
+			<Link teargt="_blank" to="https://www.linkedin.com/in/ankit-tyagi-4a1535168/">https://www.linkedin.com/in/ankit-tyagi-4a1535168/</Link>
 		</Cell>
 
 
