@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import {Grid,Cell} from 'react-mdl';
 import Education from './Education';
+import Experience from './Experience';
+import Skills from './Skills';
 
 class Resume extends Component{
 render(){
@@ -29,15 +31,72 @@ return(
 			<h5>Email</h5>
 			<p>tyagiankit370@gmail.com</p>
 			<h5>linkedin</h5>
-			<Link teargt="_blank" to="https://www.linkedin.com/in/ankit-tyagi-4a1535168/">https://www.linkedin.com/in/ankit-tyagi-4a1535168/</Link>
+			<a style={{color:'blue'}} href="https://www.linkedin.com/in/ankit-tyagi-4a1535168/" target="_blank" rel="noopener noreferrer" >https://www.linkedin.com/in/ankit-tyagi-4a1535168/</a>
+			
 		</Cell>
 
 
 		<Cell  className="resume-right-col"col={8}>
 		<h2>Education</h2>
-		<Education/>
+
+
+
+		<Education 
+		startYear={2015}
+		endYear={2019}
+		schoolName={"SRM University"}
+		schoolDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+		/>
+
+		<Education 
+		startYear={2015}
+		endYear={2019}
+		schoolName={"SRM University"}
+		schoolDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+		/>
+
+
+		<hr style={{borderTop:'3px solid #e22947'}}/>
+
+		<h2>Experience</h2>
+		<Experience  
+		startYear={2019}
+		endYear={2020}
+		jobName={"Piramal Foundation"}
+		jobDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+		/>
+			<Experience  
+		startYear={2020}
+		endYear={2023}
+		jobName={"Tata Consultancy Services"}
+		jobDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+		/>
+
+			<hr style={{borderTop:'3px solid #e22947'}}/>
+			<h2>Skills</h2>
+			<Skills 
+			skill="javascript"
+			progress= {100}
+			/>
+
+			<Skills 
+			skill="Html/Css"
+			progress= {70}
+			/>
+
+			<Skills 
+			skill="React"
+			progress= {25}
+			/>
+
+			<Skills 
+			skill="javascript"
+			progress= {100}
+			/>
 
 		</Cell>
+
+
 	</Grid>	
 		</div>)
 
