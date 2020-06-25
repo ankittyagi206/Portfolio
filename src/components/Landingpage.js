@@ -11,7 +11,7 @@ return(
 			<div className="banner-text">
 			<h1> Web Developer</h1>
 			<hr/>
-			<p> HTML/CSS | JavaScript | React | White Board Animations</p>
+			<p> HTML/CSS | JavaScript | React js| White Board Animations</p>
 			<div className="social-links">
 
 			<a href="https://www.linkedin.com/in/ankit-tyagi-4a1535168/" target="_blank" rel="noopener noreferrer" > <i className="fa fa-linkedin-square"  aria-hidden="true" /></a>

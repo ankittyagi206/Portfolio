@@ -10,12 +10,12 @@ return(
 
 				<h2>Ankit Tyagi</h2>
 				<img 
-				src="/profile.png" 
+				src="/pro.png" 
 				alt="profile"
 				style={{height:'300px', paddingTop:'0px'}}
 				/>
-				<p style={{ width:'75%',margin:'auto',paddingTop:'0'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-
+				<p style={{ width:'75%',margin:'auto',paddingTop:'0'}}>Are you working on something great? I would love to help make it happen! Call me or drop me a Mail and start your project right now! Just do it. </p>
+				
 
 				</Cell>
 				<Cell col={6}>
@@ -67,3 +67,7 @@ return(
 };
 }
 export default Contact;
+
+/*
+Hi! I'm Ankit Tygai. I am a Mechanical Engineer.I am Self-motivated and a quick learner. I love to explore new
+things.I am currently work as an Assistant System Engineer in TATA Consultancy Services.I want to know how may i help your project.Check out my Resume and projects. <br/>I believe in:<br/>“ THINK POSITIVE & FIND FUEL IN FAILURE” */
