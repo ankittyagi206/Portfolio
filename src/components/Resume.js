@@ -10,7 +10,7 @@ return(
 	<div>
 	<Grid>
 		<Cell col={4}> 
-			<div style={{textAlign:'center'}}>
+			<div className="imageStyle" style={{textAlign:'center'}}>
 				<img 
 				  src="/logo.png"
 				  alt="avatar"
@@ -18,7 +18,7 @@ return(
 				  />
 			</div>
 
-			<h2 style={{paddingTop:'1em'}}> Ankit Tyagi</h2>
+			<h2 className="heading" style={{paddingTop:'1em'}}> Ankit Tyagi</h2>
 			<h4 style={{color:'grey'}}>Programmer</h4>
 			<hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/ >
 			<p>To work for a progressive organization in a highly motivating and challenging

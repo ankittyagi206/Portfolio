@@ -104,3 +104,48 @@ height: 100%;
   font-size: 66px;
   padding-right: 5rem;
 }
+
+@media(max-width: 768px){
+   img{
+     width: 50%;
+     height: auto;
+     padding-top:0px;
+     padding-bottom: 7em;
+  }
+  .banner-text{
+    
+    width: 80%;
+    height:auto;
+  }
+  .banner-text h1{
+    font-size:40px;
+    margin-bottom: 8px;
+
+  }
+  .banner-text p{
+    font-size:18px;
+
+  }
+  .social-links{
+
+  }
+  .heading{
+    text-align: center;
+    color:#3498db;
+  }
+  .imageStyle img{
+    width: 100%;
+    height: auto;
+    padding-left:14em;
+  }
+  .contact-body{
+}
+  .contact-grid img{
+width: 100%;
+height: auto;
+  }
+.contact-list{
+  display: flex;
+  flex-direction: row;
+}
+}
