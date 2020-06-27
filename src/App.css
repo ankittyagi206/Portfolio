@@ -126,9 +126,7 @@ height: 100%;
     font-size:18px;
 
   }
-  .social-links{
-
-  }
+  
   .heading{
     text-align: center;
     color:#3498db;
@@ -148,4 +146,16 @@ height: auto;
   display: flex;
   flex-direction: row;
 }
+}
+
+@media(max-width: 468px){
+     img{
+     width: 100%;
+     padding-top:0px;
+     padding-bottom: 7em;
+  } 
+  .social-links{
+  width:100%;
+  }
+
 }
